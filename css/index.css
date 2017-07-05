@@ -1,0 +1,90 @@
+@charset "utf-8";
+/*
+
+//纵向
+    -ms-flex-item-align: center;
+    -webkit-align-self: center;
+    align-self: center;
+
+     //横向
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+
+
+
+
+     -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: none;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    */
+img{font-size: 0;}
+.po-re{position: relative;}
+.flex{display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
+.content{padding: 0.3rem 0.3rem 1rem;}
+.tabs{font-size: 0.65rem; width: 100%; -webkit-box-pack: justify; -ms-flex-pack: justify; -webkit-justify-content: space-between; justify-content: space-between;}
+.tabs li{width: 23.32%; text-align: center; color: #fff; height: 1.2rem; line-height: 1.2rem; border-radius: 0.5rem 0.5rem 0 0;
+    background-image: url("../img/top-crash.png"); background-size: 100% 100%;
+}
+.bgred{ background-color: #e73656;}
+.bgblue{ background-color: #13b5b1;}
+.bggreen{ background-color: #9ab445;}
+.bgblack{ background-color: #1a1a1f;}
+.tabers{width: 100%; height: 54vw;}
+.taber{width: 100%; height: 100%; border-radius: 0 0 0.5rem 0.5rem; font-size: 0; text-align: right; position: relative;
+    background-image: url("../img/taber-crash.png");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.taber:not(:nth-of-type(1)){display: none;}
+/*.tab-crash{width: 100%; height: 100%; position: absolute; left: 0; top: 0;*/
+    /*background: url("../img/tab-cross.png") no-repeat;*/
+    /*-webkit-background-size: 100% 100%;*/
+    /*background-size: 100% 100%;}*/
+.tab-bg{height: 100%;}
+/*==card内容==*/
+.card{position: absolute; left: 3vw; top: 4.5vh;}
+.head{width: 16.2vw; height: 16.2vw; background-color: #fff; border-radius: 50%; overflow: hidden; margin-bottom: 6.4vw;}
+.head img{display: block; font-size: 0; width: 100%; height: 100%;}
+.member-info{font-size: 0.54rem;-ms-flex-item-align: stretch;
+    -webkit-align-self: stretch;
+    align-self: stretch; color: #fff;}
+.code img{width: 12.8vw; display: block; margin-bottom: 0.2rem;}
+.member-info p.big{font-size: 0.71rem;}
+.member{margin-left: 0.5rem;}
+.stretch-height{height: 12.8vw; text-align: left; margin-bottom: 0.2rem;}
+.card-number{position: absolute; bottom: 0; left: 0; width: 100%;}
+.grade{position:absolute; width: 0.8rem; height: 0.8rem; text-align: center; line-height: 0.9rem; font-weight: bolder; font-size: 0.68rem; background-color: #f4d621; border-radius: 50%; color: #fff;border: 0.2rem solid #fff; top: -0.1rem; right: 0;}
+/*==中间导向==*/
+.nav-links>div{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.nav-links a{width: 23vw; height: 23vw;
+    background: url("../img/nav-links.png") no-repeat;
+}
+.line1 a:nth-child(1){background-position: 0 0; background-size: 415% 214%;}
+.line1 a:nth-child(2){background-position: 33.3% 0; background-size: 415% 214%;}
+.line1 a:nth-child(3){background-position: 66.7% 0; background-size: 415% 214%;}
+.line1 a:nth-child(4){background-position: 100% 0; background-size: 415% 214%;}
+.line2 a:nth-child(1){background-position: 0 100%; background-size: 415% 214%;}
+.line2 a:nth-child(2){background-position: 33.3% 100%; background-size: 415% 214%;}
+.line2 a:nth-child(3){background-position: 66.7% 100%; background-size: 415% 214%;}
+.line2 a:nth-child(4){background-position: 100% 100%; background-size: 415% 214%;}
+/*.recommends{margin-top: 0.5rem;}*/
+.recommends>p{font-size: 0.5rem; height: 1.25rem; line-height: 1.25rem; color: #706f6f;}
+.recommends>a{display: block; width: 100%; margin-top: 0.5rem;}
+.recommends img{display: block; font-size: 0; width: 100%;}
+/*==swiper==*/
+.swiper-pagination{text-align: right; padding-right: 5%;}
+.swiper-container-horizontal>.swiper-pagination-bullets{bottom:0;}
+.swiper-pagination-bullet{background-color: #ed6d1f; opacity: 1;}
+.swiper-pagination-bullet-active{background-color: #fff;}
+
+
+
