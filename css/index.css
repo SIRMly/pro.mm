@@ -20,6 +20,7 @@
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     */
+.page{background-color: #fff; width: 100%; min-height: 100%; position: absolute; left: 0; top: 0;overflow: auto; -webkit-overflow-scrolling: touch;}
 img{font-size: 0;}
 .po-re{position: relative;}
 .flex{display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
