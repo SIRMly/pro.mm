@@ -3,17 +3,29 @@
  */
 ;(function ($){
     var click = "ontouchstart" in document ? "touchend" : "click";
-    var tab = $(".tabs").find("li");
-    var tabber = $(".taber");
-    tab.each(function (index, item){
-        $(this).on(click, function (){
-            //var tabIndex = $(this).index();
-            //console.log()
-
-            console.log(index);
-            tabber.eq(index).show().siblings().hide();
-        })
+    var tabSwiper = new Swiper('#tab-slider',{
+        simulateTouch: false,
+        spaceBetween: 0,
+        loop: true,
+        autoplay: false,
+        autoplayDisableOnInteraction: false,
+        touchRatio : 0
     });
+    $(".tab1").on(click, function (){
+        tabSwiper.slideTo(1 ,800 ,false);
+    });
+    $(".tab2").on(click, function (){
+        tabSwiper.slideTo(2 ,800 ,false);
+    });
+    $(".tab3").on(click, function (){
+        tabSwiper.slideTo(3 ,800 ,false);
+    });
+    $(".tab4").on(click, function (){
+        tabSwiper.slideTo(4 ,800 ,false);
+    });
+
+
+
     /*==swiper==*/
     var swiper = new Swiper('#swiper-recommend',{
         pagination :".swiper-pagination",
@@ -25,6 +37,7 @@
         autoplay: 2500,
         autoplayDisableOnInteraction: false
     });
+
 
 })(jQuery);
 

@@ -12,9 +12,6 @@
     -webkit-justify-content: space-between;
     justify-content: space-between;
 
-
-
-
      -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: none;
     -ms-flex-wrap: nowrap;
@@ -39,12 +36,12 @@ img{font-size: 0;}
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 }
-.taber:not(:nth-of-type(1)){display: none;}
+/*.taber:not(:nth-of-type(1)){display: none;}*/
 /*.tab-crash{width: 100%; height: 100%; position: absolute; left: 0; top: 0;*/
     /*background: url("../img/tab-cross.png") no-repeat;*/
     /*-webkit-background-size: 100% 100%;*/
     /*background-size: 100% 100%;}*/
-.tab-bg{height: 100%;}
+.tab-bg{height: 54vw;}
 /*==card内容==*/
 .card{position: absolute; left: 3vw; top: 3.5vh;}
 .head{width: 16.5vw; height: 16.5vw; background-color: #fff; border-radius: 50%; overflow: hidden; margin-bottom: 6.4vw;}
