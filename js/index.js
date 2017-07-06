@@ -22,7 +22,7 @@
         paginationClickable: false,
         spaceBetween: 0,
         loop: true,
-        autoplay: 25000,
+        autoplay: 2500,
         autoplayDisableOnInteraction: false
     });
 
