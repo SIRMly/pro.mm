@@ -45,13 +45,16 @@ img{font-size: 0;}
     /*background-size: 100% 100%;}*/
 .tab-bg{height: 100%;}
 /*==card内容==*/
-.card{position: absolute; left: 3vw; top: 4.5vh;}
-.head{width: 16.2vw; height: 16.2vw; background-color: #fff; border-radius: 50%; overflow: hidden; margin-bottom: 6.4vw;}
+.card{position: absolute; left: 3vw; top: 3.5vh;}
+.head{width: 16.5vw; height: 16.5vw; background-color: #fff; border-radius: 50%; overflow: hidden; margin-bottom: 6.4vw;}
 .head img{display: block; font-size: 0; width: 100%; height: 100%;}
 .member-info{font-size: 0.54rem;-ms-flex-item-align: stretch;
     -webkit-align-self: stretch;
-    align-self: stretch; color: #fff; margin-left: 1.7vw;}
-.code img{width: 12.8vw; display: block; margin-bottom: 0.2rem;}
+    align-self: stretch; color: #fff;
+    margin-left: 1.75vw;   margin-left: calc(1.75vw - 1.85rem + 6.5vw)
+}
+.code{width: 3.7rem; min-width: 13vw;}
+.code img{width: 13vw; height: 13vw; display: block; margin: 0 auto 0.2rem; }
 .code p{text-align: center;}
 .member-info p.big{font-size: 0.71rem;}
 .member{margin-left: 0.5rem;}
