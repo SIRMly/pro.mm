@@ -38,7 +38,6 @@
         autoplayDisableOnInteraction: false
     });
 
-
 })(jQuery);
 
 
