@@ -24,8 +24,6 @@
         tabSwiper.slideTo(4 ,800 ,false);
     });
 
-
-
     /*==swiper==*/
     var swiper = new Swiper('#swiper-recommend',{
         pagination :".swiper-pagination",

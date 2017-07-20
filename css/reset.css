@@ -20,7 +20,7 @@ button, input[type=submit], input[type=reset], input[type=button] { -webkit-appe
 input[type=number] { -moz-appearance: textfield;  }
 .clearfix:after, .clearfix:before {content: "";  display: block;  height: 0;  clear: both;  visibility: hidden;}
 .pull-left { float: left;}
-.pull-right { float: right;}
+.pull-right { float: right !important;}
 .hide{display: none; }
 html{font-size:20px}
 @media only screen and (min-width:400px){

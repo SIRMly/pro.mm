@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="author" content="SIRMly">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,  initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/light7.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>优惠券</title>
+</head>
+<body>
+<div class="page coupon">
+    <header class="bar bar-nav">
+        <h1 class="title flex ver-center her-center">
+            <div class="myIcon couponIcon"></div>
+            <span>优惠券</span>
+        </h1>
+    </header>
+    <div class="content">
+        <div class="card redCard">
+            <div class="card-content flex ver-stretch her-stretch">
+                <div class="coupon-info">
+                    <p class="coupon-title">咪咪50元产品抵扣券</p>
+                    <p class="coupon-code-title">兑换码</p>
+                    <p class="coupon-code">ABC1234560000000</p>
+                    <p class="coupon-notice">
+                        <span>*仅限咪咪CAC产品</span>
+                        <span>截止日期 2017-12-31</span>
+                    </p>
+                </div>
+                <div class="coupon-money">
+                    <div class="coupon-money-bg flex ver-center">
+                        <img src="img/50.png" alt="" />
+                    </div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <div class="img-wrapper hide">
+                <img src="img/code.png" alt=""/>
+            </div>
+        </div>
+        <div class="card greenCard">
+            <div class="card-content flex ver-stretch her-stretch">
+                <div class="coupon-info">
+                    <p class="coupon-title">丝客富38元洗头券</p>
+                    <p class="coupon-notice">
+                        <span>*仅限丝客富店面使用</span>
+                        <span>截止日期 2017-12-31</span>
+                    </p>
+                </div>
+                <div class="coupon-money">
+                    <div class="coupon-money-bg flex ver-center">
+                        <img src="img/try.png" alt="" />
+                    </div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <div class="img-wrapper hide">
+                <img src="img/code.png" alt=""/>
+            </div>
+        </div>
+        <div class="card blueCard">
+            <div class="card-content flex ver-stretch her-stretch">
+                <div class="coupon-info">
+                    <p class="coupon-title">丝客富38元洗头券</p>
+                    <p class="coupon-notice">
+                        <span>*仅限丝客富店面使用</span>
+                        <span>截止日期 2017-12-31</span>
+                    </p>
+                </div>
+                <div class="coupon-money">
+                    <div class="coupon-money-bg flex ver-center">
+                        <img src="img/38.png" alt="" />
+                    </div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <div class="img-wrapper hide">
+                <img src="img/code.png" alt=""/>
+            </div>
+        </div>
+        <div class="card blackCard">
+            <div class="card-content flex ver-stretch her-stretch">
+                <div class="coupon-info">
+                    <p class="coupon-title">丝客富38元洗头券</p>
+                    <p class="coupon-notice">
+                        <span>*仅限丝客富店面使用</span>
+                        <span>截止日期 2017-12-31</span>
+                    </p>
+                </div>
+                <div class="coupon-money">
+                    <div class="coupon-money-bg flex ver-center">
+                        <img src="img/38.png" alt="" />
+                    </div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <div class="img-wrapper hide">
+                <img src="img/code.png" alt=""/>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/light7.min.js"></script>
+<script>
+    ;(function ($){
+        $.init();
+        var click = "ontouchstart" in document ? "touchend" : "click";
+        var cards = $(".card-content");
+        cards.each(function (){
+            $(this).on(click,  function (){
+                $(this).next(".img-wrapper").removeClass("hide");
+            });
+
+        });
+        $(".img-wrapper").each(function (){
+            $(this).on(click, function (){
+                if(!($(this).hasClass("hide"))){
+                    $(this).addClass("hide");
+                }
+            })
+        })
+    })(jQuery);
+</script>
+</body>
+</html>
