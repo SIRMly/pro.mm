@@ -1,6 +1,6 @@
 @charset "utf-8";
 .index{border: 1px solid #ed6d1f; -webkit-border-radius: 0.75rem; -moz-border-radius: 0.75rem; border-radius: 0.75rem; overflow: hidden;}
-.index-content{padding: 0.5rem 0.325rem 0;}
+.index-content{padding: 0.7rem 0.325rem 0;}
 .active-rules{display: block; color: #ffffff; font-size: 0.725rem; background-color: #ed6d1f; width: 4.9rem; text-align: center; height: 1.35rem; line-height: 1.35rem; font-weight: bold; border-radius: 0.2rem; letter-spacing: 2px; margin-bottom: 0.6rem;}
 .rule-item{color: #000; font-size: 0.51rem; font-weight: bold; line-height: 0.95rem; position: relative;padding-left: 0.75rem; margin-top: 0.05rem;}
 .rule-item:before{content: ""; position: absolute; left: 0.05rem; width: 0.45rem; height: 0.45rem; border-radius: 50%; background-color: #ed6d1f; top: 0.25rem;}
