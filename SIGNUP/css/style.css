@@ -11,6 +11,30 @@
 .index-link.link3{background:#9ab445 url("../img/icon3.png") no-repeat 14% center; -webkit-background-size: auto 76.1%; background-size: auto 76.1%;}
 .index-link.link4{background:#000000 url("../img/icon4.png") no-repeat 14% center; -webkit-background-size: auto 79.85%; background-size: auto 79.85%;}
 .index-link p{position: absolute; color: #fff; font-size: 0.65rem; height: 1.45rem; line-height: 1.35rem; border-top: 1px solid #fff; border-bottom: 1px solid #fff; right: 11%; top: 50%; margin-top: -0.725rem;}
+.page-pl{padding: 0.75rem 0.9rem 0;}
+.mm-title{display: block; height: 1.3rem; line-height: 1.3rem; text-align: center; width: 4.85rem; color: #fff; font-size: 0.625rem; letter-spacing: 0.05rem; background-color: #e73656; border-radius: 0.2rem; font-weight: bold;}
+.word{font-size: 0.72rem; color: #010101; line-height: 1.15rem; margin-top: 0.4rem; font-weight: bold; height: 2.3rem;}
+.page1 .word span{color: #e73656;}
+.input-controller{display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex;-webkit-box-align: stretch; -ms-flex-align: stretch; -webkit-align-items: stretch; align-items: stretch;-webkit-box-pack: justify; -ms-flex-pack: justify; -webkit-justify-content: space-between; justify-content: space-between;margin-top: 0.65rem;}
+.input-label{font-size: 0.6rem; color: #fff; line-height: 1.2rem; width: 2.4rem; text-align: center; border-radius: 0.225rem; height: 1.2rem; }
+.page1 .input-label,.page1 .btn{background-color: #e73656;}
+.input-controls{ border: 1px solid #050001; border-radius: 0.225rem; flex: 1; margin-left: 0.6rem; text-indent: 0.5rem; font-size: 0.6rem; height: 1.2rem; }
+.btn{height: 2rem; line-height: 2rem; text-align: center;color: #fff; font-size: 0.9rem; font-weight: bold; flex: 1; border-radius: 0.225rem; letter-spacing: 0.05rem;}
+.des-content{margin-top: 1.825rem;}
+.des-content .mm-title{margin-left: 0.9rem; margin-bottom: 1.27rem;}
+.page2 .mm-title{background-color: #83c9c7;}
+.page2 .input-label{background-color: #83c9c7;}
+.page2 .btn{background-color: #eb605b;}
+.page2 .word span{color: #83c9c7;}
+.page3 .mm-title,.page3 .btn,.page3 .input-label{background-color: #668412;}
+.page3 .word span{color: #668412;}
+.page4 .mm-title,.page4 .input-label{background-color: #000000;}
+.page4 .word span{color: #000000;}
+.page4 .btn{background-color: #ffdc39; color: #000000;}
+.page4 .des-content{padding-bottom: 5rem;}
+
+
+
 
 
 
