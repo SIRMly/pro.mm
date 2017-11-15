@@ -1,5 +1,5 @@
 @charset "utf-8";
-.index{border: 1px solid #ed6d1f; -webkit-border-radius: 0.75rem; -moz-border-radius: 0.75rem; border-radius: 0.75rem; overflow: hidden;}
+.index .container{top: 0.25rem; bottom: 0.25rem; left: 0.25rem; right: 0.25rem;border: 1px solid #ed6d1f; -webkit-border-radius: 0.75rem; -moz-border-radius: 0.75rem; border-radius: 0.75rem;overflow: hidden;}
 .index-content{padding: 0.7rem 0.325rem 0;}
 .active-rules{display: block; color: #ffffff; font-size: 0.725rem; background-color: #ed6d1f; width: 4.9rem; text-align: center; height: 1.35rem; line-height: 1.35rem; font-weight: bold; border-radius: 0.2rem; letter-spacing: 2px; margin-bottom: 0.6rem;}
 .rule-item{color: #000; font-size: 0.51rem; font-weight: bold; line-height: 0.95rem; position: relative;padding-left: 0.75rem; margin-top: 0.05rem;}
@@ -32,21 +32,3 @@
 .page4 .word span{color: #000000;}
 .page4 .btn{background-color: #ffdc39; color: #000000;}
 .page4 .des-content{padding-bottom: 5rem;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

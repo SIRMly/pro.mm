@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <meta name="renderer" content="webkit"/>
+    <meta name="author" content="SIRMly">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <!--<link rel="stylesheet" href="css/iosSelect.css"/>-->
+    <link rel="stylesheet" href="css/coupons.css"/>
+    <title>抵用券</title>
+</head>
+<body>
+<div class="page">
+    <div class="bar">
+        抵用券
+        <a href="javascript:;" class="back-btn"></a>
+        <a href="javaScript:;" class="info-btn">券使用说明</a>
+    </div>
+    <div class="container">
+        <img src="img/my-top.png" alt=""/>
+        <div class="tabs clearfix">
+            <a href="javascript:;" class="tab1">可领优惠券</a>
+            <a href="javascript:;" class="tab2">我的优惠券</a>
+        </div>
+        <div class="tab-controls">
+            <div class="swiper-container" id="my-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="select-wrapper">
+                            <select name="" id="">
+                                <option value="">礼盒优惠券</option>
+                                <option value="">礼盒优惠券2</option>
+                                <option value="">礼盒优惠券4</option>
+                                <option value="">礼盒优惠券6</option>
+                            </select>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <p class="card-name">7.9折通用券</p>
+                                <p class="card-title">咪咪 | 全场优惠</p>
+                                <div class="card-info">
+                                    <p>1.本券仅限咪咪店铺使用</p>
+                                    <p>2.本券仅限领券当天一次性使用，过期无效</p>
+                                    <p>3.本券不与其他任何特惠套餐同享</p>
+                                    <p>4.本券最终解释权由富隆（香港）企业管理集团所有</p>
+                                    <a href="javascript:;" class="open-btn"></a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <p class="card-name">7.9折通用券</p>
+                                <p class="card-title">咪咪 | 全场优惠</p>
+                                <div class="card-info">
+                                    <p>1.本券仅限咪咪店铺使用</p>
+                                    <p>2.本券仅限领券当天一次性使用，过期无效</p>
+                                    <p>3.本券不与其他任何特惠套餐同享</p>
+                                    <p>4.本券最终解释权由富隆（香港）企业管理集团所有</p>
+                                    <a href="javascript:;" class="open-btn"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="select-wrapper">
+                            <select name="" id="">
+                                <option value="">礼盒优惠券1</option>
+                                <option value="">礼盒优惠券3</option>
+                                <option value="">礼盒优惠券5</option>
+                                <option value="">礼盒优惠券7</option>
+                            </select>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <p class="card-name">7.9折通用券</p>
+                                <p class="card-title">咪咪 | 全场优惠</p>
+                                <div class="card-info">
+                                    <p>1.本券仅限咪咪店铺使用</p>
+                                    <p>2.本券仅限领券当天一次性使用，过期无效</p>
+                                    <p>3.本券不与其他任何特惠套餐同享</p>
+                                    <p>4.本券最终解释权由富隆（香港）企业管理集团所有</p>
+                                    <a href="javascript:;" class="open-btn"></a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <p class="card-name">7.9折通用券</p>
+                                <p class="card-title">咪咪 | 全场优惠</p>
+                                <div class="card-info">
+                                    <p>1.本券仅限咪咪店铺使用</p>
+                                    <p>2.本券仅限领券当天一次性使用，过期无效</p>
+                                    <p>3.本券不与其他任何特惠套餐同享</p>
+                                    <p>4.本券最终解释权由富隆（香港）企业管理集团所有</p>
+                                    <a href="javascript:;" class="open-btn"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+<!--<script src="js/iscroll.js"></script>-->
+<!--<script src="js/iosSelect.js"></script>-->
+<script>
+    $(function(){
+        var click = "ontouchstart" in document ? "touchend" : "click";
+        var tabSwiper = new Swiper('#my-slider',{
+            simulateTouch: false,
+            spaceBetween: 0,
+            loop: true,
+            autoplay: false,
+            autoplayDisableOnInteraction: false,
+            touchRatio : 0,
+            autoHeight : true
+        });
+        $(".tab1").on(click, function (){
+            tabSwiper.slideTo(1 ,800 ,true);
+        });
+        $(".tab2").on(click, function (){
+            tabSwiper.slideTo(2 ,800 ,true);
+        });
+        /*==card底部展开==*/
+        $(".card").each(function (index, item){
+            $(this).on(click, ".open-btn", function (){
+                if($(this).hasClass("show")){
+                    $(this).closest(".card-info").find("p:not(:nth-of-type(1))").slideUp(300, function(){
+                        tabSwiper.update();
+                    });
+                    $(this).removeClass("show");
+                    tabSwiper.update();
+                }else{
+                    $(this).closest(".card-info").find("p").slideDown(300, function(){
+                        tabSwiper.update();
+                    });
+                    $(this).addClass("show");
+                }
+            });
+        });
+    });
+
+</script>
+</body>
+</html>
