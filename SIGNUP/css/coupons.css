@@ -20,12 +20,12 @@
 .swiper-slide{padding: 1.25rem 0.75rem;}
 .select-wrapper{width: 100%; border: 1px solid #9f9f9f; border-radius: 0.25rem; background-color: #fafafa; height: 2.1rem; line-height: 2rem;}
 .select-wrapper input,.select-wrapper select{display: block; height: 100%; outline: none; border: none; width: 100%; padding-left: 1rem; color: #9f9f9f; font-size: 1rem; letter-spacing: 0.05rem; background: url("../img/downArrow.png") no-repeat center right; -webkit-background-size: auto 35%; background-size: auto 35%; border-radius: 0.25rem; }
-.card{background-color: #fff; border-radius: 0.5rem; padding-top: 1.6rem; margin-top: 1rem; box-shadow: 5px 7px 8px #dbdbdb, -5px 7px 8px #dbdbdb; overflow: hidden;}
+.card{display: block; background-color: #fff; border-radius: 0.5rem; padding-top: 1.6rem; margin-top: 1rem; box-shadow: 5px 7px 8px #dbdbdb, -5px 7px 8px #dbdbdb; overflow: hidden;}
 .card-name{color: #e99b04; font-size: 1.25rem;margin-left: 1.25rem; font-weight: bold;}
 .card-title{color: #595757; font-size: 0.875rem;margin-left: 1.25rem; line-height: 1.5rem; font-weight: bold; margin-bottom: 1rem;}
 .card-info{color: #9f9f9f; font-size: 0.6rem; padding: 0.45rem 1.4rem 0.7rem 1rem; background-color: #fafafa; line-height: 0.9rem; position: relative;}
 .card-info:before,.card-info:after{content: ""; position: absolute; width: 0.84rem; height: 0.84rem; background-color: #dbdbdb; left: -0.42rem; top: -0.42rem; border-radius: 50%;}
 .card-info:after{left: auto; right: -0.42rem;}
-.open-btn{width: 1rem; height: 1rem; position: absolute; right: 0.5rem; top: 0.45rem; background: url("../img/downArrow.png") no-repeat 0.1rem center; -webkit-background-size: 140% auto; background-size: 140% auto; -webkit-transition: transform 0.3s; -moz-transition: transform 0.3s; -ms-transition: transform 0.3s; -o-transition: transform 0.3s; transition: transform 0.3s;}
+.open-btn{position: absolute; cursor: pointer; width: 1rem; height: 1rem; right: 0.5rem; top: 0.45rem; background: url("../img/downArrow.png") no-repeat 0.1rem center; -webkit-background-size: 140% auto; background-size: 140% auto; -webkit-transition: transform 0.3s; -moz-transition: transform 0.3s; -ms-transition: transform 0.3s; -o-transition: transform 0.3s; transition: transform 0.3s;}
 .card-info p:not(:nth-of-type(1)){display: none;}
 .open-btn.show{ -webkit-transform: rotate(-180deg); -moz-transform: rotate(-180deg); -ms-transform: rotate(-180deg); -o-transform: rotate(-180deg); transform: rotate(-180deg);}
